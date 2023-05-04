@@ -790,6 +790,11 @@ padding-bottom: 10px;
 
 }
 
+@media screen and (max-height: 6000px) {
+    footer{
+        display: block;
+    }
+
 @media screen and (max-height: 3000px) {
     aside{
         float:none;
