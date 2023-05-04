@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+        <title>Frindo AI | Data Platform Indonesia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/styles.css">
+        <link rel="icon" href="./assets/favicon.ico">
+        <script type="text/javascript" src="./assets/frindo.js"></script>
+</head>
+<body>
+	<header><!---------------------------------------------------------------------------------HEADER-->
+			<!--DISPLAY CONTENT HEADER-->
+		
+						<!--Logo-->
+					        <img id="home" class="logo" src="assets/logo.png" alt="main_logo">
+					    <!--Navigasi dropdown-->
+					        <nav class="links">
+					                <span class="drop">
+					                      <a class="droplink" href="#">Service</a>
+					                    <div class="drop-content">
+					                       <a href="#service">Automobil</a>
+					                       <a href="#service">Robotik</a>
+					                        <a href="#service">Retail</a>
+					                    </div>
+					                </span>
+					                <span class="drop">
+					                      <a class="droplink" href="#">Produk</a>
+					                    <div class="drop-content">
+					                        <a href="#produk_scroll">LiDAR Scan</a>
+					                        <a href="#produk_scroll">Gambar Semantic</a>
+					                        <a href="#produk_scroll">Teks</a>
+					                        <a href="#produk_scroll">Video</a>
+					                    </div>
+					                </span>
+					                <span class="drop">
+					                      <a class="droplink" href="#">Perusahaan</a>
+					                    <div class="drop-content">
+					                        <a href="#tentang">Tentang</a>
+					                        <a href="#visit">Kontak<sub>new!</sub></a>
+					                        <a href="#karir">Karir<sub>coming soon..</sub></a>
+					                        <a href="#client_">Client</a>
+					                    </div>
+					                </span>   
+					        </nav>
+					    <!--Login Button-->
+					            <a href="#"><button class="error" onclick="navigasiOpenLogin()">Login</button></a>
+					            <a onclick="navigasiOpen()" class="menu" href="#">&#9776;</a>
+			<!--HIDDEN Content Header-->
+						<!--responsif toggle-->
+					        <div id="simple_nav" class="overlay">
+					            <a class="close" onclick="navigasiClose()">tutup</a>
+					            <div class="overlay__content">
+					                <span class="drop">
+					                      <a class="droplink" href="#">Service</a>
+					                    <div class="drop-content">
+					                       <a href="#service">Automobil</a>
+					                       <a href="#service">Robotik</a>
+					                        <a href="#service">Retail</a>
+					                    </div>
+					                </span>
+					                <span class="drop">
+					                      <a class="droplink" href="#">Produk</a>
+					                    <div class="drop-content">
+					                        <a href="#produk_scroll">LiDAR Scan</a>
+					                        <a href="#produk_scroll">Gambar Semantic</a>
+					                        <a href="#produk_scroll">Teks</a>
+					                        <a href="#produk_scroll">Video</a>
+					                    </div>
+					                </span>
+					                <span class="drop">
+					                      <a class="droplink" href="#">Perusahaan</a>
+					                    <div class="drop-content">
+					                        <a href="#tentang">Tentang</a>
+					                        <a href="#">Kontak</a>
+					                        <a href="#visit">Kontak<sub>new!</sub></a>
+					                        <a href="#karir">Karir<sub>coming soon..</sub></a>
+					                    </div>
+					                </span>   
+					                <button id="button_hidden" onclick="navigasiOpenLogin()">Login</button>
+					            </div>
+					        </div>
+					    <!--login popup-->
+							<div id="login_button" class="overlay">
+						        <div class="form_frindo2">
+						          <h1>LOGIN</h1>
+						          <form>
+						            <input type="text" name="name" id="name" placeholder="Email" required/>
+						            <input type="password" placeholder="Password" id="password" required>
+
+						            <hr>
+						            <div class="konfirmasi_tombol">
+						              <a href="#"><button>Login</button></a>
+						            </div>
+						                <a class="mclose" onclick="navigasiCloseLogin()">tutup</a>
+						          </form>
+						        </div>
+						    </div>
+
+	</header><!--------------------------------------------------------------------------------HEADER CLOSE-->
+		
+
+															
+	<main><!-----------------------------------------------------------------------------------MAIN CONTENT-->
+		<!--DISPLAY CONTENT OPENING-->				
+							<div class="opening">
+						        <div class="opening_">
+						                <h2>Pelatihan Data Kecerdasan Buatan</h2>
+						                <article>
+						                <p>Mengolah Data berkualitas tinggi untuk aplikasi kecerdasan buatan</p>
+						                </article>
+						                <button onclick="navigasiOpenInfo()">Info&nbsp;&nbsp;&nbsp;&nbsp;>></button>
+						        </div>
+						        <div class="opening_">
+						                <h2>Menyediakan Akses Data Human Logic
+						                <article>
+						                <p>Untuk pengalaman yang lebih baik dan digunakan pada banyak kasus.</p>
+						                </article>
+						                <button onclick="navigasiOpenMulai()">Mulai >></button>
+						        </div>
+						    </div>
+		<!--HIDDEN Content Opening-->
+			<!--Overlay Box Guidebox popup-->
+				<div id="info_button" class="overlay">
+				 <div class="overlay__content">
+				    <div>
+				        <div class="overlay__content">
+				            <div class="form_frindo">
+				                <article>
+				                	<h2 class="title">Bagaimana Cara Kerjanya?</h2>
+					                  <p>Setelah mengirimkan data Anda melalui API Call platform kami, lalu dengan menggunakan kombinasi tenaga kerja manusia melalui pemeriksaan bertahap, smart tools, pemeriksaan kepercayaan statistik, pemeriksaan pembelajaran mesin, kemudian akan mengembalikan data kebenaran/respon dari lapangan yang nantinya dapat diukur kembali dengan akurasi output rata-rata 98%.</p>
+					                  <p>Kami menawarkan trial 1 bulan untuk pembelian akses selama 1 tahun, dengan garansi uang kembali. dan kami juga menyediakan program khusus untuk mahasiswa berbagai jurusan di bidang teknologi untuk kepentingan praktikum, tugas, research, bahan skripsi, dan lain sebagainya dengan biaya yang lebih terjangkau. selengkapnya silahkan unduh dokumen penawaran dari kami.</p>
+				                </article>
+				                			<a class="mclose" onclick="navigasiCloseInfo()">tutup</a>
+				    					
+				                			<a href="assets/information.pdf" target="_blank" download id="button__"><button class="klik3">download dokumen</button></a>		
+				            </div>
+				        </div>
+				    </div>				    										                	
+				 </div>
+				</div>
+				<!--Overlay Box Form Daftar-->
+				        <div id="mulai_button" class="overlay">
+				            <div class="overlay__content">
+				                <div class="form_frindo">
+				                  <h1>Form Pendaftaran</h1>
+				                  <hr>
+				                  <hr>
+				                 <form>
+				                  		<img id="img_preview"  src="./assets/favicon.ico" alt="img">
+				                    <hr>
+
+				                    <div class="account-type">
+				                      <input type="radio" value="none" id="radio1" name="account">
+				                      <label for="radio1" class="radio">Perusahaan</label>
+				                      <input type="radio" value="none" id="radio2" name="account">
+				                      <label for="radio2" class="radio">Mahasiswa</label>
+				                    </div>
+				                    <hr>
+
+				                    <input type="text" name="name" id="name" placeholder="Email" required/>
+				                    <input type="text" name="name" id="name" placeholder="Nama" required/>
+				                    <input type="password" placeholder="Password" id="password" required>
+
+				                    <hr>
+				                    <div class="konfirmasi_tombol">
+				                      <p>Dengan menekan tombol daftar,</p> <p>anda setuju dengan kebijakan kami: </p><p><a href="#">Privacy Policy Frindo.Corp</a></p>
+				                      <button class="klik2">D A F T A R</button>
+				                    </div>
+				                    <a class="mclose" onclick="navigasiCloseMulai()">tutup</a>
+				                  </form>
+				                </div>
+				            </div>
+				        </div>
+		<!--DISPLAY CONTENT ISI-->
+			<h2 class="title">Cara Terbaik Untuk Mengolah Data</h2>
+            <h4>Frindo menyediakan API, alat editor grafis, kontrol kualitas otomatis dengan dukungan tenaga manusia untuk banyak jenis anotasi pada konten visual.</h5>
+        <!--Content service & produk-->
+    		<div id="service">
+                    <div>
+						<div class="pop">
+	                		<img id="hover1" src="./assets/lidar200.png" alt="lidar">
+							<span class="poptext">LiDAR Sensor</span>	                		
+						</div>
+						<div class="pop">
+	                		<img id="hover2" src="./assets/cube200.png" alt="cube">
+							<span class="poptext">LiDAR Mapping</span>
+						</div>
+						<div class="pop">
+	                		<img id="hover3" src="./assets/image200.png" alt="image">
+							<span class="poptext">Segmentasi Gambar</span>
+						</div>
+						<div class="pop">
+	                		<img id="hover4" src="./assets/video200.png" alt="retail">
+							<span class="poptext">Video Transkrip</span>
+						</div>
+						<div class="pop">
+	                		<img id="hover5" src="./assets/drone200.png" alt="robot">
+							<span class="poptext">Software Drone</span>
+						</div>
+						<div class="pop">
+	                		<img id="hover6" src="./assets/retail200.png" alt="video">
+							<span class="poptext">Bisnis Retail</span>
+						</div>
+						<div class="pop">	                		
+	                		<img id="hover7" src="./assets/text200.png" alt="text">
+							<span class="poptext">Teks Transkrip</span>
+						</div>	                		
+                		
+                		<div class="pop">
+                			<img id="hover8" src="./assets/robot200.png" alt="drone">
+                			<span class="poptext">Software Robotik</span>
+                		</div>
+                    </div>
+    		</div>
+    	<!--Artikel-->
+    		<div class="informasi">
+                <article>
+                <p>Selain kendaraan self-driving, AI juga dapat digunakan untuk membuat kehidupan di dalam mobil lebih nyaman dan aman, baik untuk pengemudi maupun penumpang. Asisten dalam mobil, didorong oleh pemrosesan bahasa alami (NLP) dan teknik pembelajaran mesin, memungkinkan sistem kendaraan merespons perintah suara dan menyimpulkan tindakan yang harus dilakukan, tanpa campur tangan manusia. Terlepas dari potensi teknologi kendaraan otonom dan asisten dalam mobil, banyak kehati-hatian yang berkaitan dengan masalah keamanan, dan keinginan untuk memastikan pengguna menikmati pengalaman yang mulus dan bebas gangguan, sistem AI ini kemungkinan akan diterapkan secara bertahap. bahkan kini sudah merambah ke banyak bidang seperti kesehatan: pemanfaatan teknologi AI untuk memilah hasil CPR hanya dalam waktu hitungan detik untuk seribu gambar, sampai pendeteksi barang-barang umum dekorasi di rumah anda pun bisa menjadi bahan awal untuk anotasi gambar yang selanjutnya akan diproses oleh komputer vision. Tractica memperkirakan bahwa pasar untuk perangkat keras, perangkat lunak, dan layanan AI otomotif & Bisnis akan mencapai $ 26,5 miliar pada tahun 2025, naik dari $ 1,2 miliar pada tahun 2017.</p>
+                </article>
+            </div>
+        			<!--Tawaran-->
+        				<h2 class="title">Mulai Dari Sekarang, Kelola Data Anda.</h2>
+            			<h4>Buat model yang dapat Anda percaya sekaligus memaksimalkan efisiensi operasional dan mengurangi biaya hingga 50%.</h5>
+            <!--SLIDESHOW-->
+            <!--Script Summon-->
+            	<style>
+                    .contentSlider {display:none;}
+                </style>
+                    
+
+                <div id="produk_scroll" class="container_slideshow">
+                             
+                      <img class="contentSlider" src="./assets/slide1.gif">
+                      <img class="contentSlider" src="./assets/slide4.gif">
+                      <img class="contentSlider" src="./assets/slide5.gif">
+                      <img class="contentSlider" src="./assets/slide6.gif">
+                      <img class="contentSlider" src="./assets/slide7.gif">                      
+                      <img class="contentSlider" src="./assets/slide9.gif">
+                      <img class="contentSlider" src="./assets/slide10.gif">
+                      <button class="tambah" onclick="plusDivs(1)">&#10095;</button>
+                    
+           		 </div>
+           		 <!--Inline Script-->
+                    <script>var slideIndex = 1;
+                    ambilNilai(slideIndex);
+
+                    function plusDivs(n) {
+                      ambilNilai(slideIndex += n);
+                    }
+
+                    function ambilNilai(n) {
+                      var i;
+                      var x = document.getElementsByClassName("contentSlider");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }</script>
+
+            <!-- TRUSTED BY -->
+				            <div id="client_" class="trusted"><img src="assets/trusted.png"></div>
+				            <div class="trusted"><img src="assets/trusted.png"></div>
+				            <div class="trusted"><img src="assets/trusted.png"></div>
+
+			<!--COMPANY--> <!--BIODATA-->
+				<aside class="aside_right">          
+                  <div class="form_frindo">				               
+				                    
+				                    <hr>
+				                    <div class="konfirmasi_tombol">
+
+				                    	<article class="klik2">P R O F I L</article>
+				                    <hr>
+				                    <div class="image_bio">
+				                      <img src="./assets/photo.jpg">
+				                    </div>
+				                    </div>
+				                    <hr>
+				                    <article>FIRDAUS FIRMANSYAH</article>
+				                    <hr>
+				                    <hr>
+				                    <article>Cirebon, Jawa Barat</article>
+				                    <hr>
+				                    <div class="split">
+				                    	<a href="mailto: ffrd4us@gmail.com"><img class="sosial" src="./assets/mail.png"></a>				                    	
+				                    </div>
+				                    	<article id="nb" class="klik2">" Terimakasih dicoding.com, akhirnya saya bisa bikin tampilan web yang bagus berkat kalian. Alhamdulillah. " </article>
+				                    	<article id="nb2" class="klik2">nb: website tema konten startup Artificial Intelligence, single page.</article>
+				    </div>
+				</aside>
+
+				<aside id="tentang" class="aside_kiri">
+				  <h4>Visi & Misi</h4>
+				      <article class="visi_misi">
+				          <p>
+				              Di Frindo AI, kami percaya sekaranglah waktunya untuk mengeluarkan Kecerdasan Buatan dari lab ke dunia nyata. Di mana bisnis tidak dapat menunjukkan apa yang bisa dilakukan oleh Kecerdasan Buatan, tetapi apa yang bisa dilakukan Kecerdasan Buatan dalam sektor bisnis dan kehidupan sehari-hari lainnya. Dan kami akan berusaha yang terbaik untuk menjadi pelopor bagi bangsa dan negara dalam perkembangan teknologi kecerdasan buatan.
+				          </p>
+				          <p>
+				            Visi kami adalah menghubungkan industri dan peneliti serta khalayak umum, dengan tujuan menjadikan Indonesia sebagai hubungan global untuk pengembangan kecerdasan buatan khususnya untuk negara-negara kecil dan berkembang.
+				          </p>
+				          <p>
+				            Dan kami pun memiliki misi untuk meningkatkan produktivitas di seluruh industri di Indonesia dengan mengintegrasikan AI dengan rantai pasokan dan dengan membangun kerangka kerja berbagi pengetahuan untuk memajukan penelitian teknologi juga sumber daya manusianya.
+				          </p>
+				      </article>
+				</aside>
+				<aside class="aside_kiri">
+				  <h4>Our Team<h4>
+				      <article class="visi_misi">
+				          <p>
+				            Tim kami bekerja tanpa lelah untuk membuat dampak sebesar mungkin. Kami memiliki budaya yang kuat dalam menghargai tindakan, kerjasama tim, efisiensi, dan mendorong pencarian berkelanjutan kami untuk menemukan apa yang berhasil untuk mengurangi kemiskinan sampai batas akhir.
+				          </p>
+				      </article>
+				   <div class="pop">
+	                		<a href="http://www.chm.bris.ac.uk/org/aggarwal/" target="_blank"> <img src="http://www.chm.bris.ac.uk/org/aggarwal/images/group_picture/aggarwal_group_2019.jpg"></a>
+							<span class="poptext">ilustrasi grup</span>
+					</div>
+				   
+
+				   
+				</aside>
+
+
+		
+				
+			
+				        <hr>
+	</main><!-----------------------------------------------------------------------------MAIN CONTENT CLOSE-->
+</body><!---------------------------------------------------------------------------------BODY-------CLOSE---->
+
+
+<footer><!----------------------------------------------------------------------------FOOTER OPEN--------->
+<div id="visit" class="notes">
+	<nav class="nav_drop">
+		<ul class="parent_list">
+
+			<li>
+				<a href="#home">
+					<img src="./assets/logof.png">
+				</a>
+			</li>
+
+
+			<li>
+				<h3>Profil</h3>
+				<ul>
+					<a href="#" target="_blank"><li>Alamat</li></a>
+					<a href="#" target="_blank"><li>Izin</li></a>
+					<a href="#" target="_blank"><li>Cabang</li></a>
+					<a href="#" target="_blank"><li>Pajak</li></a>
+					<a href="#" target="_blank"><li>Partner</li></a>
+					<a href="#" target="_blank"><li>Pemodal</li></a>
+				</ul>
+			</li>
+
+			<li>
+				<h3>Support</h3>
+				<ul>
+					<a href="#" target="_blank"><li>Twitter</li></a>
+					<a href="#" target="_blank"><li>Facebook</li></a>
+					<a href="#" target="_blank"><li>Instagram</li></a>
+					<a href="#" target="_blank"><li>Discord</li></a>
+					<a href="#" target="_blank"><li>Github</li></a>
+				</ul>
+			</li>
+
+			<li>
+				<h3>Source</h3>
+				<ul>
+					<a href="#" target="_blank"><li>Blog</li></a>
+					<a href="#" target="_blank"><li>Client</li></a>
+					<a href="#" target="_blank"><li>Dokumen</li></a>
+				</ul>	
+			</li>
+
+			<li>
+				<h3>Kontak</h3>					
+				<ul>
+					<a href="#" target="_blank"><li>sales@frindo.id</li></a>
+					<a href="#" target="_blank"><li>karir@frindo.id</li></a>
+					<a href="#" target="_blank"><li>sdm@frindo.id</li></a>
+					<a href="#" target="_blank"><li>cs@frindo.id</li></a>
+				</ul>
+			</li>
+		</ul>	
+	</nav>
+</div>
+	<div class="copyright">
+		
+		Copyright &copy;2020 Frindo AI, inc. All rights reserved.
+
+	</div>
+</footer><!--------------------------------------------------------------------------FOOTER CLOSE--------->
+</html>
